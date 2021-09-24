@@ -17,5 +17,6 @@ t=int(input())
 if t in nums:
     print("Found")
 # update --> update at a given index
-nums[1990]="Defence Institute"
+nums[1990]="IIIT vadodara"
 print(nums)
+#enjoy
