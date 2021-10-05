@@ -31,4 +31,15 @@ else:
                     nums.append(count)
 
                 count=max(nums)
-                numpy.append(count)
+                numpy.append(count)#creating a list contains STR
+            #find the match
+            temp = 0
+            for i in range(1,len(List)):
+                database=list(map(int,List[i][1:]))
+                if database==numpy:
+                    print(List[i][0])
+                    temp = 1
+                    break
+
+            if temp==0:
+                print("No Match")
